@@ -21,12 +21,14 @@ func init() {
 	femaleFilePath := getAsset("data/FemaleNames.json")
 	surnameFilePath := getAsset("data/Surnames.json")
 	englishFilePath := getAsset("data/English.json")
+	dutchFilePath := getAsset("data/Dutch.json")
 	passwordsFilePath := getAsset("data/Passwords.json")
 
 	Lists["MaleNames"] = getStringListFromAsset(maleFilePath, "MaleNames")
 	Lists["FemaleNames"] = getStringListFromAsset(femaleFilePath, "FemaleNames")
 	Lists["Surname"] = getStringListFromAsset(surnameFilePath, "Surname")
 	Lists["English"] = getStringListFromAsset(englishFilePath, "English")
+	Lists["Dutch"] = getStringListFromAsset(dutchFilePath, "Dutch")
 	Lists["Passwords"] = getStringListFromAsset(passwordsFilePath, "Passwords")
 
 }
